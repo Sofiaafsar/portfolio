@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+
+.sidebar{
+    background-color: rgb(0, 9, 75);
+    width: 12vw;
+    font-family: 'Space Grotesk', sans-serif;
+    height:100vh;
+    color:white;
+    overflow: auto;
+    z-index: 1;
+    position: fixed!important;
+}
+.sidebar nav{
+    padding:14px;
+}
+.sidebar nav  li{
+    list-style-type: none;
+    padding: 15px 0;
+    font-size: 20px;
+}
+.sidebar nav  li a{
+    text-decoration:none;
+    color:white;
+}
+.sidebar nav  li a:hover{
+    color:rgb(0, 120, 120);
+}
+.main{
+    background-color: rgb(255, 255, 255);
+    width: 90vw;
+    margin:0 150px;
+}
+.container{
+    display: flex;
+}
+.infoContainer {
+    background-color:rgba(215, 212, 216, 0.073);
+    width:80vw;
+    height:30vw;
+    margin:100px 100px;
+    display:flex;
+    justify-content: space-around;
+}
+.devinfo{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hello{
+    font-size:80px;
+}
+.name{
+    font-size:70px;
+}
+.about{
+    font-size:30px;
+}
+
+.buttons{
+    padding:10px 0px;
+}
+.buttons button{
+padding:9px 14px;
+border-radius: 20px;
+color:white;
+background-color: rgb(0, 9, 75);
+font-weight:bold;
+margin:3px 3px;
+cursor:pointer;
+}
+.buttons button:hover{
+    background-color:white;
+    color: rgb(0, 9, 75);
+}
+.pic img{
+   width:400px;
+   height:30vw;
+}
+.contactform h1{
+    padding:50px 0;
+    text-align:center;
+}
+.contactform form div{
+    padding:10px;
+    display:flex;
+    flex-direction:column;
+    width: 500px;
+}
+.contactform button{
+    border-radius: 100px;
+    width:100px;
+    height:30px;
+    cursor:pointer;
+    background-color:rgb(0, 9, 75) ;
+    color:white;
+    padding:0 20px;
+    margin:10px;
+}
+.contactform button:hover{
+    color:rgb(0, 9, 75) ;
+    background-color:white;
+}
+#form-check{
+    flex-direction:row;
+}
+
+#form-check-label{
+    margin:10px 15px;
+}
+.intro h1{
+    margin:10px 15px;
+}
+.intro p{
+    margin:10px 15px;
+    justify-content: space-around;
+    font-size:20px;
+}
+.skills{
+    margin:10px 15px;
+}
+.grey{
+    width:700px;
+    height:20px;
+    background-color:rgb(183, 183, 183);
+}
+.skillpercent1{
+width:600px;
+height:20px;
+background-color:grey;
+text-align:center;
+margin:10px 0;
+}
+.skillpercent2{
+    width:155px;
+    height:20px;
+    background-color:grey;
+    text-align:center;
+    margin:10px 0;
+}
+.skillpercent3{
+        width:515px;
+        height:20px;
+        background-color:grey;
+        text-align:center;
+        margin:10px 0;
+ }
+ .skillpercent4{
+    width:295px;
+    height:20px;
+    background-color:grey;
+    text-align:center;
+    margin:10px 0;
+    }
+#img1{
+    height: 350px;
+    margin: 67px 64px;
+    width: 450px;
+}
